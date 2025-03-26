@@ -18,6 +18,7 @@ public class SnakeAndLadder {
             if (position + dice <= 100) {
                 position += dice;
                 System.out.println("You moved to position: " + position);
+                
             }
 
             // Simple snake and ladder logic
